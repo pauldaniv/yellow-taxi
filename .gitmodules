@@ -1,0 +1,6 @@
+[submodule "taxi-trip-api"]
+	path = taxi-trip-api
+	url = git@github.com:pauldaniv/taxi-trip-api
+[submodule "taxi-trip-client"]
+	path = taxi-trip-client
+	url = git@github.com:pauldaniv/taxi-trip-client
