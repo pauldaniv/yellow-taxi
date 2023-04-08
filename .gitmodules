@@ -4,3 +4,12 @@
 [submodule "taxi-trip-client"]
 	path = taxi-trip-client
 	url = git@github.com:pauldaniv/taxi-trip-client
+[submodule "yellow-taxi-tf"]
+	path = yellow-taxi-tf
+	url = git@github.com:pauldaniv/yellow-taxi-tf
+[submodule "yellow-taxi-manifests"]
+	path = yellow-taxi-manifests
+	url = git@github.com:pauldaniv/yellow-taxi-manifests
+[submodule "yellow-taxi-scripts"]
+	path = yellow-taxi-scripts
+	url = git@github.com:pauldaniv/yellow-taxi-scripts
