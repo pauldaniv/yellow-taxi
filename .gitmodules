@@ -13,3 +13,9 @@
 [submodule "yellow-taxi-scripts"]
 	path = yellow-taxi-scripts
 	url = git@github.com:pauldaniv/yellow-taxi-scripts
+[submodule "yellow-taxi-totals"]
+	path = yellow-taxi-totals
+	url = git@github.com:pauldaniv/yellow-taxi-totals.git
+[submodule "taxi-trip-facade"]
+	path = taxi-trip-facade
+	url = git@github.com:pauldaniv/taxi-trip-facade
