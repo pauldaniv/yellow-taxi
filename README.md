@@ -7,15 +7,15 @@ Sample diagram:
 stateDiagram-v2
     ProjectStart --> InfrastructureSetup
         InfrastructureSetup --> CI/CD
-        InfrastructureSetup --> AWS
-            AWS --> Kubernates
-                Kubernates --> Jenkins
-            AWS --> RDS
-            AWS --> CodeArtifact
-            AWS --> ContainerRegistry
-            AWS --> MKS
-            AWS --> Cashing
-            AWS --> Ansible?
+        InfrastructureSetup --> Terraform
+            Terraform --> Kubernetes
+                Kubernetes --> Kafka
+                Kubernetes --> Zookeeper
+                Kubernetes --> Redis
+            Terraform --> AWS
+                AWS --> RDS
+                AWS --> CodeArtifact
+                AWS --> ContainerRegistry
         InfrastructureSetup --> AutomationScripts
     ProjectStart --> FunctionaltityImplementation
         FunctionaltityImplementation --> Authentication
@@ -23,7 +23,6 @@ stateDiagram-v2
     ProjectStart --> Testing
         Testing --> Manual
         Testing --> Unit
-        Testing --> E2E
         Testing --> Performance
     ProjectStart --> Unplanned
     
